@@ -10,11 +10,11 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text CharacterName;
     public Image CharacterImage;
     public bool dialogueIsPlaying=false;
-    public float DialogueTimerValue;
+    /* public float DialogueTimerValue; */
     public Queue<string> Sentence;
     public Queue<string> Name;
     public Queue<Sprite> CharacterSprite;
-    public Queue<float> DialogueTime;
+    /* public Queue<float> DialogueTime; */
 
     public Animator animator;
     private void Start()
@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
         Sentence= new Queue<string>();  
         Name= new Queue<string>();
         CharacterSprite= new Queue<Sprite>();
-        DialogueTime= new Queue<float>();
+        /* DialogueTime= new Queue<float>(); */
     }
 
     public void StartDialogue(DialogueWindow  dialogue)
@@ -42,10 +42,10 @@ public class DialogueManager : MonoBehaviour
     {
         Name.Enqueue(name);
     }
-    foreach (float dialogueTime in dialogue.dialogueTime)
+    /* foreach (float dialogueTime in dialogue.dialogueTime)
     {
         DialogueTime.Enqueue(dialogueTime);
-    }
+    } */
     foreach (string sentenses in dialogue.sentenses)
     {
         Sentence.Enqueue(sentenses);
@@ -61,21 +61,21 @@ public class DialogueManager : MonoBehaviour
         if (Sentence.Count==0)
         {
             EndDialogue();
-            
+            return;
         }
         string sentense = Sentence.Dequeue();
         string name = Name.Dequeue();
         Sprite characterSprite = CharacterSprite.Dequeue();
-        float dialogueTime = DialogueTime.Dequeue();
-        StartCoroutine(TypeLines(sentense, name, characterSprite, dialogueTime ));
+        /* float dialogueTime = DialogueTime.Dequeue(); */
+        StartCoroutine(TypeLines(sentense, name, characterSprite/* , dialogueTime */ ));
     }
 
-    IEnumerator TypeLines(string sentense, string name,  Sprite characterSprite, float dialogueTime)
+    IEnumerator TypeLines(string sentense, string name,  Sprite characterSprite/* , float dialogueTime */)
     {
         DialogueText.text="";
         CharacterName.text=name;
         CharacterImage.sprite=characterSprite;
-        DialogueTimerValue=dialogueTime;
+        /* DialogueTimerValue=dialogueTime; */
         foreach (char letter in sentense.ToCharArray())
         {
             DialogueText.text +=letter;
@@ -101,6 +101,7 @@ public class DialogueManager : MonoBehaviour
    {
     dialogueIsPlaying=false;
     animator.SetBool("isOpen", false);
+    
    }
 
 }

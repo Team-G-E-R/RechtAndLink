@@ -6,7 +6,7 @@ using UnityEngine;
 public class DialogueWindow 
 {
     public string[] name;
-    public float[] dialogueTime;
+    /* public float[] dialogueTime; */
     public Sprite[] characterSprite;
 
     [TextArea(3,10)]
