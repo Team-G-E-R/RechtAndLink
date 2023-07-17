@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text DialogueText;
     public TMP_Text CharacterName;
     public Image CharacterImage;
-
+    public bool dialogueIsPlaying=false;
     public float DialogueTimerValue;
     public Queue<string> Sentence;
     public Queue<string> Name;
@@ -27,6 +27,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueWindow  dialogue)
    {
+    dialogueIsPlaying=true;
     animator.SetBool("isOpen", true);
 
     Sentence.Clear();
@@ -80,16 +81,25 @@ public class DialogueManager : MonoBehaviour
             DialogueText.text +=letter;
             yield return null;
         }
-        StartCoroutine(NextDialogueStage());
+        
+        /* StartCoroutine(NextDialogueStage()); */
     }
-    IEnumerator NextDialogueStage()
+    /* IEnumerator NextDialogueStage()
     {
        yield return new WaitForSeconds(DialogueTimerValue);
        DisplayNextLine();
-    }
+    } */
 
+    private void Update()
+    {
+        if ((Input.GetKeyDown(KeyCode.E))&&(dialogueIsPlaying==true))
+        {
+           DisplayNextLine();
+        }
+    }
    private void EndDialogue()
    {
+    dialogueIsPlaying=false;
     animator.SetBool("isOpen", false);
    }
 
