@@ -7,41 +7,53 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public TMP_Text DialogueText;
-    public TMP_Text CharacterName;
-    public Image CharacterImage;
+    public TMP_Text RightCharacterName;
+    public TMP_Text LeftCharacterName;
+    public Image LeftCharacterImage;
+    public Image RightCharacterImage;
     public bool dialogueIsPlaying=false;
     /* public float DialogueTimerValue; */
     public Queue<string> Sentence;
-    public Queue<string> Name;
-    public Queue<Sprite> CharacterSprite;
+   /*  public Queue<string> Name; */
+    public Queue<bool> RpSpeak;
+   /*  public Queue<Sprite> CharacterSprite; */
     /* public Queue<float> DialogueTime; */
 
     public Animator animator;
+    public Animator RightAnim;
+    public Animator LeftAnim;
+
     private void Start()
     {
         Sentence= new Queue<string>();  
-        Name= new Queue<string>();
-        CharacterSprite= new Queue<Sprite>();
+       /*  Name= new Queue<string>();
+        CharacterSprite= new Queue<Sprite>(); */
+        RpSpeak=new Queue<bool>();
         /* DialogueTime= new Queue<float>(); */
     }
 
     public void StartDialogue(DialogueWindow  dialogue)
    {
+    RightCharacterName.text=dialogue.rightCharacterName;
+    LeftCharacterName.text=dialogue.leftCharacterName;
+    LeftCharacterImage.sprite=dialogue.leftCharacterImage;
+    RightCharacterImage.sprite=dialogue.rightCharacterImage;
     dialogueIsPlaying=true;
     animator.SetBool("isOpen", true);
 
     Sentence.Clear();
-    CharacterSprite.Clear();
-    Name.Clear();
+    /* CharacterSprite.Clear();
+    Name.Clear(); */
+    RpSpeak.Clear();
 
-    foreach (Sprite characterSprite  in dialogue.characterSprite)
+    /* foreach (Sprite characterSprite  in dialogue.characterSprite)
     {
         CharacterSprite.Enqueue(characterSprite);
     }
     foreach (string name in dialogue.name)
     {
         Name.Enqueue(name);
-    }
+    } */
     /* foreach (float dialogueTime in dialogue.dialogueTime)
     {
         DialogueTime.Enqueue(dialogueTime);
@@ -49,6 +61,10 @@ public class DialogueManager : MonoBehaviour
     foreach (string sentenses in dialogue.sentenses)
     {
         Sentence.Enqueue(sentenses);
+    }
+    foreach (bool rightPersonSpeaking in dialogue.rightPersonSpeaking)
+    {
+        RpSpeak.Enqueue(rightPersonSpeaking);
     }
 
     DisplayNextLine();
@@ -64,17 +80,30 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         string sentense = Sentence.Dequeue();
-        string name = Name.Dequeue();
-        Sprite characterSprite = CharacterSprite.Dequeue();
+        /* string name = Name.Dequeue();
+        Sprite characterSprite = CharacterSprite.Dequeue(); */
+        bool rightPersonSpeaking= RpSpeak.Dequeue();
         /* float dialogueTime = DialogueTime.Dequeue(); */
-        StartCoroutine(TypeLines(sentense, name, characterSprite/* , dialogueTime */ ));
+        StartCoroutine(TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking
+        /* , dialogueTime */ ));
     }
 
-    IEnumerator TypeLines(string sentense, string name,  Sprite characterSprite/* , float dialogueTime */)
+    IEnumerator TypeLines(string sentense, /* string name,  Sprite characterSprite, */ bool rightPersonSpeaking
+    /* , float dialogueTime */)
     {
+        if (rightPersonSpeaking)
+        {
+            RightAnim.SetBool("isHightlited", true);
+            LeftAnim.SetBool("isHightlited", false);
+        }
+        else 
+        {
+            RightAnim.SetBool("isHightlited", false);
+            LeftAnim.SetBool("isHightlited", true);
+        }
         DialogueText.text="";
-        CharacterName.text=name;
-        CharacterImage.sprite=characterSprite;
+        /* CharacterName.text=name;
+        CharacterImage.sprite=characterSprite; */
         /* DialogueTimerValue=dialogueTime; */
         foreach (char letter in sentense.ToCharArray())
         {

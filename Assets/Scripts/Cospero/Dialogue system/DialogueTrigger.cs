@@ -16,11 +16,11 @@ public class DialogueTrigger : MonoBehaviour
         
     
     {
-        Debug.Log("Кал");
-        if (other.tag == "Player")
+        
+        if ((other.tag == "Player"))
         {
             ActivateDialogue();
-            Destroy(this.gameObject);
+            
         }
     }
 }
