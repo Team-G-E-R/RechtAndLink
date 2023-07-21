@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Playables;
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField] GameObject player;
+    [SerializeField] PlayableDirector director;
     public TMP_Text DialogueText;
     public TMP_Text RightCharacterName;
     public TMP_Text LeftCharacterName;
@@ -32,42 +35,48 @@ public class DialogueManager : MonoBehaviour
         /* DialogueTime= new Queue<float>(); */
     }
 
+    public void TimeLineStop()
+    {
+        director.Pause();
+    }
+
     public void StartDialogue(DialogueWindow  dialogue)
    {
-    RightCharacterName.text=dialogue.rightCharacterName;
-    LeftCharacterName.text=dialogue.leftCharacterName;
-    LeftCharacterImage.sprite=dialogue.leftCharacterImage;
-    RightCharacterImage.sprite=dialogue.rightCharacterImage;
-    dialogueIsPlaying=true;
-    animator.SetBool("isOpen", true);
+        player.GetComponent<movecontr>().enabled=false;
+        RightCharacterName.text=dialogue.rightCharacterName;
+        LeftCharacterName.text=dialogue.leftCharacterName;
+        LeftCharacterImage.sprite=dialogue.leftCharacterImage;
+        RightCharacterImage.sprite=dialogue.rightCharacterImage;
+        dialogueIsPlaying=true;
+        animator.SetBool("isOpen", true);
 
-    Sentence.Clear();
-    /* CharacterSprite.Clear();
-    Name.Clear(); */
-    RpSpeak.Clear();
+        Sentence.Clear();
+        /* CharacterSprite.Clear();
+        Name.Clear(); */
+        RpSpeak.Clear();
 
-    /* foreach (Sprite characterSprite  in dialogue.characterSprite)
-    {
-        CharacterSprite.Enqueue(characterSprite);
-    }
-    foreach (string name in dialogue.name)
-    {
-        Name.Enqueue(name);
-    } */
-    /* foreach (float dialogueTime in dialogue.dialogueTime)
-    {
-        DialogueTime.Enqueue(dialogueTime);
-    } */
-    foreach (string sentenses in dialogue.sentenses)
-    {
-        Sentence.Enqueue(sentenses);
-    }
-    foreach (bool rightPersonSpeaking in dialogue.rightPersonSpeaking)
-    {
-        RpSpeak.Enqueue(rightPersonSpeaking);
-    }
+        /* foreach (Sprite characterSprite  in dialogue.characterSprite)
+        {
+            CharacterSprite.Enqueue(characterSprite);
+        }
+        foreach (string name in dialogue.name)
+        {
+            Name.Enqueue(name);
+        } */
+        /* foreach (float dialogueTime in dialogue.dialogueTime)
+        {
+            DialogueTime.Enqueue(dialogueTime);
+        } */
+        foreach (string sentenses in dialogue.sentenses)
+        {
+            Sentence.Enqueue(sentenses);
+        }
+        foreach (bool rightPersonSpeaking in dialogue.rightPersonSpeaking)
+        {
+            RpSpeak.Enqueue(rightPersonSpeaking);
+        }
 
-    DisplayNextLine();
+        DisplayNextLine();
 
    }
 
@@ -125,12 +134,16 @@ public class DialogueManager : MonoBehaviour
         {
            DisplayNextLine();
         }
+        if (dialogueIsPlaying == false)
+        {
+            director.Resume();
+        }
     }
    private void EndDialogue()
    {
-    dialogueIsPlaying=false;
-    animator.SetBool("isOpen", false);
-    
-   }
+        player.GetComponent<movecontr>().enabled = true;
+        dialogueIsPlaying = false;
+        animator.SetBool("isOpen", false);
+    }
 
 }
