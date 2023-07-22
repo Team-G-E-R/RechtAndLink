@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public Image RightCharacterImage;
     public bool dialogueIsPlaying=false;
     
+    private IEnumerator coroutine;
     /* public float DialogueTimerValue; */
     public Queue<string> Sentence;
    /*  public Queue<string> Name; */
@@ -36,6 +37,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueWindow  dialogue)
    {
+    
     dialogueIsPlaying=true;
     RightCharacterName.text=dialogue.rightCharacterName;
     LeftCharacterName.text=dialogue.leftCharacterName;
@@ -87,13 +89,17 @@ public class DialogueManager : MonoBehaviour
         Sprite characterSprite = CharacterSprite.Dequeue(); */
         bool rightPersonSpeaking= RpSpeak.Dequeue();
         /* float dialogueTime = DialogueTime.Dequeue(); */
-        StartCoroutine(TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking
+        coroutine=(TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking
         /* , dialogueTime */ ));
+        StartCoroutine(coroutine);
+        /* /* (TypeLines(sentense,/*  name, characterSprite, */ /* rightPersonSpeaking */
+        /* , dialogueTime)); */
     }
 
     IEnumerator TypeLines(string sentense, /* string name,  Sprite characterSprite, */ bool rightPersonSpeaking
     /* , float dialogueTime */)
     {
+        
         if (rightPersonSpeaking)
         {
             RightAnim.SetBool("isHightlited", true);
@@ -110,9 +116,16 @@ public class DialogueManager : MonoBehaviour
         /* DialogueTimerValue=dialogueTime; */
         foreach (char letter in sentense.ToCharArray())
         {
-
+            
+            /* if (LineCol>CurCol)
+            {
+                Debug.Log(LineCol);
+                Debug.Log(CurCol);
+                break;
+            } */
             DialogueText.text +=letter;
             yield return new WaitForSeconds(WaitForMS);
+            /* yield return null; */
             
         }
         
@@ -129,7 +142,9 @@ public class DialogueManager : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.Space))&&(dialogueIsPlaying==true))
         {
             
-           DisplayNextLine();
+            StopCoroutine(coroutine);
+            
+            DisplayNextLine();
         }
     }
    private void EndDialogue()
