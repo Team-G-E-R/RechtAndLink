@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class movecontr : MonoBehaviour
 {
-<<<<<<< HEAD:Assets/Scripts/Fokin/movecontr.cs
-    [SerializeField] float speed;
-    [SerializeField] Animator anim;
-=======
     public LayerMask pickupLayer;
     public float speed = 1f;
     public Animator anim;
     Vector2 direction;
->>>>>>> LorLed:Assets/Scripts/Player/movecontr.cs
     private Rigidbody2D rb;
 
     void Start()
@@ -24,16 +19,11 @@ public class movecontr : MonoBehaviour
     {
         float xMove = Input.GetAxisRaw("Horizontal");
         float yMove = Input.GetAxisRaw("Vertical");
-<<<<<<< HEAD:Assets/Scripts/Fokin/movecontr.cs
-        rb.velocity = new Vector2 (xMove * speed, yMove * speed).normalized * speed;
-    }
-=======
         rb.velocity = new Vector2(xMove * speed, yMove * speed);
         direction = new Vector2(xMove, yMove).normalized;
         anim.SetFloat("Horizontal", xMove);
         anim.SetFloat("Vertical", yMove);
         anim.SetFloat("Speed", direction.magnitude);
->>>>>>> LorLed:Assets/Scripts/Player/movecontr.cs
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
