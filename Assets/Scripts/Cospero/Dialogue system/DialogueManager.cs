@@ -12,10 +12,12 @@ public class DialogueManager : MonoBehaviour
     public Image LeftCharacterImage;
     public Image RightCharacterImage;
     public bool dialogueIsPlaying=false;
+    
     /* public float DialogueTimerValue; */
     public Queue<string> Sentence;
    /*  public Queue<string> Name; */
     public Queue<bool> RpSpeak;
+    public float WaitForMS = 0.05f;
    /*  public Queue<Sprite> CharacterSprite; */
     /* public Queue<float> DialogueTime; */
 
@@ -34,11 +36,12 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueWindow  dialogue)
    {
+    dialogueIsPlaying=true;
     RightCharacterName.text=dialogue.rightCharacterName;
     LeftCharacterName.text=dialogue.leftCharacterName;
     LeftCharacterImage.sprite=dialogue.leftCharacterImage;
     RightCharacterImage.sprite=dialogue.rightCharacterImage;
-    dialogueIsPlaying=true;
+    
     animator.SetBool("isOpen", true);
 
     Sentence.Clear();
@@ -107,8 +110,10 @@ public class DialogueManager : MonoBehaviour
         /* DialogueTimerValue=dialogueTime; */
         foreach (char letter in sentense.ToCharArray())
         {
+
             DialogueText.text +=letter;
-            yield return null;
+            yield return new WaitForSeconds(WaitForMS);
+            
         }
         
         /* StartCoroutine(NextDialogueStage()); */
@@ -121,8 +126,9 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.E))&&(dialogueIsPlaying==true))
+        if ((Input.GetKeyDown(KeyCode.Space))&&(dialogueIsPlaying==true))
         {
+            
            DisplayNextLine();
         }
     }

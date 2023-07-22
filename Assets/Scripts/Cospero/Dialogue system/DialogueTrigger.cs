@@ -5,14 +5,20 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public DialogueWindow dialogue;
-
-    private void ActivateDialogue()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);  
+    private bool DiaPlaying;
+   
+    public void ActivateDialogue()
+    {   
+        DiaPlaying=FindObjectOfType<DialogueManager>().dialogueIsPlaying;
+        if(DiaPlaying==false)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        }
+          
     }
 
     
-    private void OnTriggerEnter2D(Collider2D other) 
+   /*  private void OnTriggerEnter2D(Collider2D other) 
         
     
     {
@@ -22,5 +28,5 @@ public class DialogueTrigger : MonoBehaviour
             ActivateDialogue();
             
         }
-    }
+    } */
 }
