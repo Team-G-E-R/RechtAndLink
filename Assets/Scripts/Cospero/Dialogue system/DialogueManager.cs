@@ -15,8 +15,9 @@ public class DialogueManager : MonoBehaviour
     public Image LeftCharacterImage;
     public Image RightCharacterImage;
     public bool dialogueIsPlaying=false;
-    
+
     /* public float DialogueTimerValue; */
+    private IEnumerator coroutine;
     public Queue<string> Sentence;
    /*  public Queue<string> Name; */
     public Queue<bool> RpSpeak;
@@ -39,7 +40,10 @@ public class DialogueManager : MonoBehaviour
 
     public void TimeLineStop()
     {
-        director.Pause();
+        if (dialogueIsPlaying == true)
+        {
+            director.Pause();
+        }
     }
 
     public void StartDialogue(DialogueWindow  dialogue)
@@ -96,8 +100,8 @@ public class DialogueManager : MonoBehaviour
         Sprite characterSprite = CharacterSprite.Dequeue(); */
         bool rightPersonSpeaking= RpSpeak.Dequeue();
         /* float dialogueTime = DialogueTime.Dequeue(); */
-        StartCoroutine(TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking
-        /* , dialogueTime */ ));
+        coroutine = (TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking));
+        StartCoroutine(coroutine);
     }
 
     IEnumerator TypeLines(string sentense, /* string name,  Sprite characterSprite, */ bool rightPersonSpeaking
@@ -137,8 +141,10 @@ public class DialogueManager : MonoBehaviour
     {
         if ((Input.GetKeyDown(KeyCode.Space))&&(dialogueIsPlaying==true))
         {
-            
-           DisplayNextLine();
+
+            StopCoroutine(coroutine);
+
+            DisplayNextLine();
         }
     }
    private void EndDialogue()

@@ -156,10 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UiText: {fileID: 691198532}
-  text: "21 year ago mad scientist Fluger Wermeier started the apocalypse which engulfed
-    whole planet. He tied a Hair Dryer to a balloon, which escalated Global Warming
-    and the temperature of whole planet has risen by 30\xB0C. Many icebergs and even
-    mountains, such as Everest started to melt down\u2026"
+  text: "21 years ago mad scientist Fluger Wermeier started the apocalypse which
+    engulfed the whole planet. He tied a Hair Dryer to a balloon, which further empowered
+    Global Warming and the temperature of the whole planet has risen by 30\xB0C.
+    Many icebergs and even mountains, such as Everest started to melt down\u2026"
   timeBetweenCharSpawn: 0.06
   delayBeforeStart: 0
   timeAfterAllTextToSpawn: 0.5
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1710807636}
-  duration: 2
+  duration: 1
   timeBetweenScenes: 5
   imageForFade: {fileID: 1805912155}
   fadeImageDuration: 3
