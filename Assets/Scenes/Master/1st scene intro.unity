@@ -441,6 +441,7 @@ MonoBehaviour:
   timeBetweenScenes: 5
   imageForFade: {fileID: 1805912155}
   fadeImageDuration: 3
+  sceneToLoad: 2
 --- !u!114 &1710807636
 MonoBehaviour:
   m_ObjectHideFlags: 0

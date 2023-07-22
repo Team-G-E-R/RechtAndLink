@@ -13,6 +13,7 @@ public class FadingScript : MonoBehaviour
     [SerializeField] float timeBetweenScenes;
     [SerializeField] Image imageForFade;
     [SerializeField] float fadeImageDuration;
+    [SerializeField] int sceneToLoad;
     private float currentTime;
     public void Start()
     {
@@ -30,7 +31,6 @@ public class FadingScript : MonoBehaviour
     public IEnumerator SceneChange()
     {
         //сюда фейд картинки 21 год спустя
-        //imageForFade = GetComponent<Image>();
         Color color = imageForFade.color;
 
         while (color.a < 1f)
@@ -40,7 +40,7 @@ public class FadingScript : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(timeBetweenScenes);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(sceneToLoad);
     }
 
     private IEnumerator FadeOut()
