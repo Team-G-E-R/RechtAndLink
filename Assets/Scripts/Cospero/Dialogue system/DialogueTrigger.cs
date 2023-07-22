@@ -9,10 +9,10 @@ public class DialogueTrigger : MonoBehaviour
    
     public void ActivateDialogue()
     {   
-        DiaPlaying=FindObjectOfType<DialogueManager>().dialogueIsPlaying;
+        DiaPlaying=FindObjectOfType<DialogueManagerCutscene>().dialogueIsPlaying;
         if(DiaPlaying==false)
         {
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            FindObjectOfType<DialogueManagerCutscene>().StartDialogue(dialogue);
         }
           
     }

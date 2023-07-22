@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using UnityEngine.Playables;
 
-public class DialogueManagerCutscene : MonoBehaviour
+public class BasedDialogue : MonoBehaviour
 {
-    [SerializeField] GameObject player;
-    [SerializeField] PlayableDirector director;
     public TMP_Text DialogueText;
     public TMP_Text RightCharacterName;
     public TMP_Text LeftCharacterName;
@@ -16,8 +13,8 @@ public class DialogueManagerCutscene : MonoBehaviour
     public Image RightCharacterImage;
     public bool dialogueIsPlaying = false;
 
-    /* public float DialogueTimerValue; */
     private IEnumerator coroutine;
+    /* public float DialogueTimerValue; */
     public Queue<string> Sentence;
     /*  public Queue<string> Name; */
     public Queue<bool> RpSpeak;
@@ -38,17 +35,9 @@ public class DialogueManagerCutscene : MonoBehaviour
         /* DialogueTime= new Queue<float>(); */
     }
 
-    public void TimeLineStop()
-    {
-        if (dialogueIsPlaying == true)
-        {
-            director.Pause();
-        }
-    }
-
     public void StartDialogue(DialogueWindow dialogue)
     {
-        player.GetComponent<movecontr>().enabled = false;
+
         dialogueIsPlaying = true;
         RightCharacterName.text = dialogue.rightCharacterName;
         LeftCharacterName.text = dialogue.leftCharacterName;
@@ -100,13 +89,17 @@ public class DialogueManagerCutscene : MonoBehaviour
         Sprite characterSprite = CharacterSprite.Dequeue(); */
         bool rightPersonSpeaking = RpSpeak.Dequeue();
         /* float dialogueTime = DialogueTime.Dequeue(); */
-        coroutine = (TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking));
+        coroutine = (TypeLines(sentense,/*  name, characterSprite, */ rightPersonSpeaking
+        /* , dialogueTime */ ));
         StartCoroutine(coroutine);
+        /* /* (TypeLines(sentense,/*  name, characterSprite, */ /* rightPersonSpeaking */
+        /* , dialogueTime)); */
     }
 
     IEnumerator TypeLines(string sentense, /* string name,  Sprite characterSprite, */ bool rightPersonSpeaking
     /* , float dialogueTime */)
     {
+
         if (rightPersonSpeaking)
         {
             RightAnim.SetBool("isHightlited", true);
@@ -124,8 +117,15 @@ public class DialogueManagerCutscene : MonoBehaviour
         foreach (char letter in sentense.ToCharArray())
         {
 
+            /* if (LineCol>CurCol)
+            {
+                Debug.Log(LineCol);
+                Debug.Log(CurCol);
+                break;
+            } */
             DialogueText.text += letter;
             yield return new WaitForSeconds(WaitForMS);
+            /* yield return null; */
 
         }
 
@@ -149,10 +149,9 @@ public class DialogueManagerCutscene : MonoBehaviour
     }
     private void EndDialogue()
     {
-        director.Resume();
-        player.GetComponent<movecontr>().enabled = true;
         dialogueIsPlaying = false;
         animator.SetBool("isOpen", false);
+
     }
 
 }

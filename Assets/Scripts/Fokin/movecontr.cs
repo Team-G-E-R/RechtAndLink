@@ -24,28 +24,5 @@ public class movecontr : MonoBehaviour
         anim.SetFloat("Horizontal", xMove);
         anim.SetFloat("Vertical", yMove);
         anim.SetFloat("Speed", direction.magnitude);
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (transform.childCount == 0)
-            {
-                Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 1f);
-                foreach (Collider2D collider in colliders)
-                {
-                    if (collider.CompareTag("Item") && ((1 << collider.gameObject.layer) & pickupLayer) != 0)
-                    {
-                        collider.transform.parent = transform;
-                        collider.GetComponent<Rigidbody2D>().isKinematic = true;
-                        break;
-                    }
-                }
-            }
-            else
-            {
-                Transform item = transform.GetChild(0);
-                item.parent = null;
-                item.GetComponent<Rigidbody2D>().isKinematic = false;
-            }
-        }
     }
 }
