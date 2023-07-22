@@ -462,6 +462,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1285855432}
+    - target: {fileID: 8911958196493795857, guid: 355fb6995268f8a42bf5d55fd05b179d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -472,6 +476,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1631668691952565396, guid: 355fb6995268f8a42bf5d55fd05b179d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1285855436}
+    - targetCorrespondingSourceObject: {fileID: 1631668691952565396, guid: 355fb6995268f8a42bf5d55fd05b179d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1285855441}
   m_SourcePrefab: {fileID: 100100000, guid: 355fb6995268f8a42bf5d55fd05b179d, type: 3}
 --- !u!1 &870817412
 GameObject:
@@ -762,11 +769,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285855431}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -781,6 +788,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1285855441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285855431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65d299f8505fc64195b978b77fd15f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCharTransform: {fileID: 2089742438}
+  speed: 2
+  stoppingDistanceHorizontal: 1
+  stoppingDistanceVertical: 1
+  anim: {fileID: 1285855432}
 --- !u!1 &1292549909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1103,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &2089742438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1185241608820725597, guid: 532569cd209b8c746a656755a0403f87, type: 3}
+  m_PrefabInstance: {fileID: 2971905260039439429}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2971905260039439429
 PrefabInstance:
   m_ObjectHideFlags: 0
