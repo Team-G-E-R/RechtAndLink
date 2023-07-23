@@ -1,0 +1,1359 @@
+fileFormatVersion: 2
+guid: 41749151a8942544687278d85da7a4d7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 23
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb3dc28647075b40a642f20b61c39d1
+      internalID: -1099901189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4017e6c00b286b541b207593bc1f685f
+      internalID: 1055594250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d49e9321d4a7842a9d7bb7018eb36e
+      internalID: 1554644551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487452376f8e0f642834d016a7e3d3eb
+      internalID: 1111101058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6233a6205e432a841842a3d3b3fe7b7b
+      internalID: 1523160333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cef82dd469eaec4fb31d1672cbecb38
+      internalID: 11853536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa01a2c1f8a269409eaf8f1cccba8b8
+      internalID: -867696818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb2580b201bc943a9a360eae56e958
+      internalID: -74684257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382cb005a796e634287b9b119f6480ed
+      internalID: -127334906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e20dec6a890e724b9a2f1bd07fbaa43
+      internalID: -1746462507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879a82d44acf0134caefd76f6df1f1c4
+      internalID: -1254081930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d705b27bfb882104293341767fff4f43
+      internalID: 803966075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb2965f42b6c604e9c57cb0452022ed
+      internalID: 781829832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1801796c457a0f479719f7651919b4a
+      internalID: -844723384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb679ec3ec8e5534580515bd49c67304
+      internalID: -1860572547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7bdd7c3754b6841ad1a62ef931ce30
+      internalID: 2053379547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf24994e135292409dc216751cc066c
+      internalID: -2106340600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971644260f334b44a1c85ff5727fb4e
+      internalID: 1091241118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c2eb1f5b7b8704ea17bc4acce4ca3a
+      internalID: -1364897682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd283260f6e1ea946a47d5282d09a4d2
+      internalID: 1658325836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08964c9177a12274cabc7a3c2cb70fb5
+      internalID: -321362375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c012a2860d2665d4282cb7ea686acb10
+      internalID: 1614326592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648fe3ac39e728f47896bd1e1efe846b
+      internalID: 715121031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d015b611bf227e441a5d5e893813ebe3
+      internalID: -268937332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e91aecc28d9be442b0ffa7f23988bf4
+      internalID: -1661449854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62f1fd2ef874324aa7526fa7c8db643
+      internalID: -404609430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879519a473211b0449fe713d6509b663
+      internalID: 1064734429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2fdbddb6800ab46aec39d3bebfd8d1
+      internalID: -1413204857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff811de09d4697c4082f3ee023e4b87e
+      internalID: 663628424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877912350f9440e45b13e376b968a91e
+      internalID: 1018113346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f043a70dc64dc499c97939dbfdb731
+      internalID: -496428014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715230093358681429615efcbdf83000
+      internalID: -1426564871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96c2d80a00dc5040997403b06def8b0
+      internalID: -2074569432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b550d50ddea207441bd27d654aa67d23
+      internalID: 87005595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1384513265ac97488c5bb8d8adc0c2f
+      internalID: 1005911344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3889ee08a9fba429bdab54f41daa07
+      internalID: 2007226448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307af0b8a063ee045aafc1f87d688799
+      internalID: -1738315221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3331ad6bacfe1349873ffb51f1fc0f4
+      internalID: -772537258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0409c5dd34eef40bfc4e206e65d45c
+      internalID: -1957739453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c5666cf11717941aa50f322e4f208d
+      internalID: -2003109650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb88cf45e496940418bd7fabae9205a1
+      internalID: 1451460754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1115f85f6d2fc4e85b0427e3cbe286
+      internalID: -274973629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9b75c5868a6a749aacf1e15e2b2039
+      internalID: -169060027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc54c835381ce041a90f461a9da24de
+      internalID: 1523539787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9114f20927a35664290a5d250d45f782
+      internalID: -413765931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f670b87a3f8025439a30385c4f5a0ec
+      internalID: -617000230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0e3f7f724e7b44390628308d147cc8
+      internalID: -2131226915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f090a4854a4642bdf39455714ae79
+      internalID: -307283780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2156105bc79fd604b8f12bf7dc239092
+      internalID: 1955572828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c0aa0871cd2b043891a25bc62ce619
+      internalID: -883565646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69abbaa6946f5784698198973de91d54
+      internalID: -1451328630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbacd9745b3f8f41a1720d349d5d273
+      internalID: -1977919631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada381c509a509243b6b3a201aab07e7
+      internalID: -1518084556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fb18c9e1297534ba0e27a8052f35b3
+      internalID: -1669801602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d58a4946bfab74298c0d723ad7617c
+      internalID: 607322598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_anal_animation_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 20
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e5cd0751b56d944bcaec24d42c0f17
+      internalID: -734784554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sniper_anal_animation_sheet_0: -1099901189
+      Sniper_anal_animation_sheet_1: 1055594250
+      Sniper_anal_animation_sheet_10: -1254081930
+      Sniper_anal_animation_sheet_11: 803966075
+      Sniper_anal_animation_sheet_12: 781829832
+      Sniper_anal_animation_sheet_13: -844723384
+      Sniper_anal_animation_sheet_14: -1860572547
+      Sniper_anal_animation_sheet_15: 2053379547
+      Sniper_anal_animation_sheet_16: -2106340600
+      Sniper_anal_animation_sheet_17: 1091241118
+      Sniper_anal_animation_sheet_18: -1364897682
+      Sniper_anal_animation_sheet_19: 1658325836
+      Sniper_anal_animation_sheet_2: 1554644551
+      Sniper_anal_animation_sheet_20: -321362375
+      Sniper_anal_animation_sheet_21: 1614326592
+      Sniper_anal_animation_sheet_22: 715121031
+      Sniper_anal_animation_sheet_23: -268937332
+      Sniper_anal_animation_sheet_24: -1661449854
+      Sniper_anal_animation_sheet_25: -404609430
+      Sniper_anal_animation_sheet_26: 1064734429
+      Sniper_anal_animation_sheet_27: -1413204857
+      Sniper_anal_animation_sheet_28: 663628424
+      Sniper_anal_animation_sheet_29: 1018113346
+      Sniper_anal_animation_sheet_3: 1111101058
+      Sniper_anal_animation_sheet_30: -496428014
+      Sniper_anal_animation_sheet_31: -1426564871
+      Sniper_anal_animation_sheet_32: -2074569432
+      Sniper_anal_animation_sheet_33: 87005595
+      Sniper_anal_animation_sheet_34: 1005911344
+      Sniper_anal_animation_sheet_35: 2007226448
+      Sniper_anal_animation_sheet_36: -1738315221
+      Sniper_anal_animation_sheet_37: -772537258
+      Sniper_anal_animation_sheet_38: -1957739453
+      Sniper_anal_animation_sheet_39: -2003109650
+      Sniper_anal_animation_sheet_4: 1523160333
+      Sniper_anal_animation_sheet_40: 1451460754
+      Sniper_anal_animation_sheet_41: -274973629
+      Sniper_anal_animation_sheet_42: -169060027
+      Sniper_anal_animation_sheet_43: 1523539787
+      Sniper_anal_animation_sheet_44: -413765931
+      Sniper_anal_animation_sheet_45: -617000230
+      Sniper_anal_animation_sheet_46: -2131226915
+      Sniper_anal_animation_sheet_47: -307283780
+      Sniper_anal_animation_sheet_48: 1955572828
+      Sniper_anal_animation_sheet_49: -883565646
+      Sniper_anal_animation_sheet_5: 11853536
+      Sniper_anal_animation_sheet_50: -1451328630
+      Sniper_anal_animation_sheet_51: -1977919631
+      Sniper_anal_animation_sheet_52: -1518084556
+      Sniper_anal_animation_sheet_53: -1669801602
+      Sniper_anal_animation_sheet_54: 607322598
+      Sniper_anal_animation_sheet_55: -734784554
+      Sniper_anal_animation_sheet_6: -867696818
+      Sniper_anal_animation_sheet_7: -74684257
+      Sniper_anal_animation_sheet_8: -127334906
+      Sniper_anal_animation_sheet_9: -1746462507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

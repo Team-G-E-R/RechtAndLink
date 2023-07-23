@@ -12,9 +12,24 @@ public class ColliderScene : MonoBehaviour
     [SerializeField] Image imageForFade;
     [SerializeField] float fadeImageDuration;
     [SerializeField] int sceneToLoad;
+    public bool NeedButtonToTrigger = false;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        StartCoroutine(SceneChange());
+        if (NeedButtonToTrigger == false)
+        {
+            StartCoroutine(SceneChange());
+        }
+
+    }
+    public void StartCoruWithButton()
+    {
+        if (NeedButtonToTrigger == true)
+        {
+            StartCoroutine(SceneChange());
+        }
+
+
     }
     IEnumerator SceneChange()
     {
