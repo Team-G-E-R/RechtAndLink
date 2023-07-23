@@ -5340,7 +5340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentenses:
-    - "I wonder where Din is\u2026"
+    - I wonder wheres your dad Din at...
     - What with this sound? Din again? Go check it outside
     rightPersonSpeaking: 0101
     rightCharacterName: Brothers
@@ -6552,6 +6552,10 @@ PrefabInstance:
     - target: {fileID: 5122785079746257467, guid: e432f889d84cd8546bfdeaf2ecd3353c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769082478138120484, guid: e432f889d84cd8546bfdeaf2ecd3353c, type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7260429475280978816, guid: e432f889d84cd8546bfdeaf2ecd3353c, type: 3}
       propertyPath: m_Size.x
