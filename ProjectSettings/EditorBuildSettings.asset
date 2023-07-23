@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Master/4rd scene.unity
     guid: ba06818775dbec643852ac95b1838d8f
+  - enabled: 1
+    path: Assets/Scenes/Master/Street Empty.unity
+    guid: a8b80061df0ecf1458d9ae0000c73412
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 2b47c9b588e1b8e4e85c3fd241affbb0, type: 2}
