@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class BasedTrigger : MonoBehaviour
 {
+    [SerializeField] GameObject player;
     public DialogueWindow dialogue;
+    public bool needToOffControl;
     private bool DiaPlaying;
 
     public void ActivateDialogue()
     {
-        DiaPlaying = FindObjectOfType<BasedDialogue>().dialogueIsPlaying;
-        if (DiaPlaying == false)
+        if (needToOffControl == true)
         {
-            FindObjectOfType<BasedDialogue>().StartDialogue(dialogue);
+            player.GetComponent<Animator>().enabled = false;
+            player.GetComponent<movecontr>().enabled = false;
+            player.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            DiaPlaying = FindObjectOfType<BasedDialogue>().dialogueIsPlaying;
+            if (DiaPlaying == false)
+            {
+                FindObjectOfType<BasedDialogue>().StartDialogue(dialogue);
+            }
+        }
+        else if(needToOffControl == false)
+        {
+            DiaPlaying = FindObjectOfType<BasedDialogue>().dialogueIsPlaying;
+            if (DiaPlaying == false)
+            {
+                FindObjectOfType<BasedDialogue>().StartDialogue(dialogue);
+            }
         }
 
     }

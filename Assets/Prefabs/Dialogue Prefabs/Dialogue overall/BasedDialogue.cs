@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class BasedDialogue : MonoBehaviour
 {
+    [SerializeField] GameObject player;
     public TMP_Text DialogueText;
     public TMP_Text RightCharacterName;
     public TMP_Text LeftCharacterName;
@@ -149,9 +150,11 @@ public class BasedDialogue : MonoBehaviour
     }
     private void EndDialogue()
     {
+        player.GetComponent<Animator>().enabled = true;
+        player.GetComponent<movecontr>().enabled = true;
+        player.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         dialogueIsPlaying = false;
         animator.SetBool("isOpen", false);
-
     }
 
 }
