@@ -1335,6 +1335,7 @@ GameObject:
   - component: {fileID: 1618826452}
   - component: {fileID: 1618826451}
   - component: {fileID: 1618826450}
+  - component: {fileID: 1618826453}
   m_Layer: 0
   m_Name: Cutscene Music
   m_TagString: Untagged
@@ -1472,6 +1473,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1618826453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618826449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac30ad40dc105464d8c7e6620ab3cbd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_: {fileID: 1618826451}
 --- !u!1 &1624249882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1498,7 @@ GameObject:
   - component: {fileID: 1624249884}
   - component: {fileID: 1624249883}
   - component: {fileID: 1624249886}
+  - component: {fileID: 1624249887}
   m_Layer: 0
   m_Name: Sniper_1
   m_TagString: Untagged
@@ -1675,6 +1690,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1624249887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624249882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac30ad40dc105464d8c7e6620ab3cbd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_: {fileID: 1624249886}
 --- !u!114 &1740143412 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8671050385557047020, guid: b5411b0a44df297468b3b3e7a49967a5, type: 3}
