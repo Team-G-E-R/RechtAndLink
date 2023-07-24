@@ -213,6 +213,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1277967861768719868, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277967861768719868, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277967861768719868, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277967861768719868, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -259,7 +271,7 @@ PrefabInstance:
     - target: {fileID: 3482498719890798966, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 1be4051fa8541f545b90bf353748e7fc, type: 2}
     - target: {fileID: 5629203161234071800, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
       propertyPath: m_SceneBindings.Array.size
       value: 1
@@ -272,6 +284,18 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
       objectReference: {fileID: 1840530945}
+    - target: {fileID: 6026038837964296753, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
+      propertyPath: m_Size.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026038837964296753, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
+      propertyPath: m_Size.y
+      value: 4.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026038837964296753, guid: 1ba837e47bc1b9e46ba70eb401e6720e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 328587810, guid: 4249c2d3d8caf8c40a6ad7ef8925cbbb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -420,7 +444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6913785488706421881, guid: e84252bb83368734d80acc1501cbb4fa, type: 3}
       propertyPath: timeBetweenCharSpawn
-      value: 0.05
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 6913785488706421881, guid: e84252bb83368734d80acc1501cbb4fa, type: 3}
       propertyPath: timeAfterAllTextToSpawn

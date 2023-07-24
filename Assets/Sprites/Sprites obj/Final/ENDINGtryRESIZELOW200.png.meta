@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: 641b8eeda5b1a804bb1aac26747bcd0a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2640
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e786da89b2be341931ec0de0422e64
+      internalID: -1434705502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2640
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88ecd56d268bf444927a2bec88a2579
+      internalID: -1445302695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_2
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2640
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b129720f38ab946b25223c6ca86c45
+      internalID: -1971492910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_3
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2640
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae5620884f431e499fea292657c51ef
+      internalID: 509259278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_4
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2640
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ae95d5acd779d489ffbcc21da45f5e
+      internalID: -96895902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_5
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2640
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac8e95331576c4cb4655f7288b6f53
+      internalID: 2015339263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3f65ed699e9824d9a351eb75517d09
+      internalID: -1123771600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2112
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b170741babfbfbb438ae151e21dbb881
+      internalID: -270087000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2112
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a2964e7dc5294e8d7571d49a6f9db
+      internalID: 388580525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_9
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2112
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4409f2f448b844ad062edffe6b349
+      internalID: -442357200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_10
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2112
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab22beb3819968747b8fd24c1a60926f
+      internalID: -1092638736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_11
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2112
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39423c2e20a59754e926901da026dc75
+      internalID: 527546409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2841271aa6000584ab432b3d8b4b4eee
+      internalID: 228925370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_13
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1584
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352cab4c6b9fa6b46968907f4d28a2b2
+      internalID: 942120203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_14
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1584
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53af426aaf6bae4ea333e4331b7c831
+      internalID: -471361043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_15
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1584
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173d8425390df864d81cd6a9145a5a46
+      internalID: -844060066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_16
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1584
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e912f1e501feb347af718303ee4ed18
+      internalID: -1262513753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_17
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1584
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca78b11a1691cb4ebb26d1c00209573
+      internalID: -1862731930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153e06971fd1cf40a9c7977d6153fce
+      internalID: -1010230646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_19
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1056
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb9b8e8dcaa7045a1e0b837120eec7
+      internalID: 1019577498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_20
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1056
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df5b6f057cb8724596fc091e0d8513e
+      internalID: -470813171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_21
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1056
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d02919102aa04c8e5538e791f5f6a
+      internalID: -234178097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1056
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadfac281ae2c2642abdb690b281ca3d
+      internalID: 2085496510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_23
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1056
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d46e69321b1df43b422fc419e4ebcc
+      internalID: -433831875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696d7e925796a08429957088b747bb08
+      internalID: 841699874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_25
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 528
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aed565eef3bd148a0f4c183d9f0758
+      internalID: -324442046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 528
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fbf876ffed0bf4a8c9d27ad78b2bc1
+      internalID: 485427547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_27
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 528
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bbe4f53e6bb5b4890d33a87e09e9c0
+      internalID: -1648371102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_28
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 528
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f26e6a6e111ebf4e8f9b7ff9fc0d894
+      internalID: -1093925328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_29
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 528
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e6c5059a5d59c4f806eaa0f3fd5e84
+      internalID: -1975975008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e8cce7ac648f746b49f2e71e28fd77
+      internalID: -1965722154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8731a196ec8f17479f8b47f8c8cacef
+      internalID: 300431379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENDINGtryRESIZELOW200_32
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 704
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71191e8de2186f344b1b16bbd916726c
+      internalID: 1742060652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ENDINGtryRESIZELOW200_0: -1434705502
+      ENDINGtryRESIZELOW200_1: -1445302695
+      ENDINGtryRESIZELOW200_10: -1092638736
+      ENDINGtryRESIZELOW200_11: 527546409
+      ENDINGtryRESIZELOW200_12: 228925370
+      ENDINGtryRESIZELOW200_13: 942120203
+      ENDINGtryRESIZELOW200_14: -471361043
+      ENDINGtryRESIZELOW200_15: -844060066
+      ENDINGtryRESIZELOW200_16: -1262513753
+      ENDINGtryRESIZELOW200_17: -1862731930
+      ENDINGtryRESIZELOW200_18: -1010230646
+      ENDINGtryRESIZELOW200_19: 1019577498
+      ENDINGtryRESIZELOW200_2: -1971492910
+      ENDINGtryRESIZELOW200_20: -470813171
+      ENDINGtryRESIZELOW200_21: -234178097
+      ENDINGtryRESIZELOW200_22: 2085496510
+      ENDINGtryRESIZELOW200_23: -433831875
+      ENDINGtryRESIZELOW200_24: 841699874
+      ENDINGtryRESIZELOW200_25: -324442046
+      ENDINGtryRESIZELOW200_26: 485427547
+      ENDINGtryRESIZELOW200_27: -1648371102
+      ENDINGtryRESIZELOW200_28: -1093925328
+      ENDINGtryRESIZELOW200_29: -1975975008
+      ENDINGtryRESIZELOW200_3: 509259278
+      ENDINGtryRESIZELOW200_30: -1965722154
+      ENDINGtryRESIZELOW200_31: 300431379
+      ENDINGtryRESIZELOW200_32: 1742060652
+      ENDINGtryRESIZELOW200_4: -96895902
+      ENDINGtryRESIZELOW200_5: 2015339263
+      ENDINGtryRESIZELOW200_6: -1123771600
+      ENDINGtryRESIZELOW200_7: -270087000
+      ENDINGtryRESIZELOW200_8: 388580525
+      ENDINGtryRESIZELOW200_9: -442357200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

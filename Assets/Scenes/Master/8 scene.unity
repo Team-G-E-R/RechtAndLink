@@ -5155,7 +5155,7 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Search in archives
 
-        Interact wit them (button E)'
+        Interact with thems (button E)'
       objectReference: {fileID: 0}
     - target: {fileID: 8526443738290152443, guid: 5758d98fb823c494eaea824ab1cff13d, type: 3}
       propertyPath: m_RootOrder
