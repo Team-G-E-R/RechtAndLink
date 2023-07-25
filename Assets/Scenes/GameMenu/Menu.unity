@@ -1574,6 +1574,7 @@ GameObject:
   - component: {fileID: 567208230}
   - component: {fileID: 567208229}
   - component: {fileID: 567208232}
+  - component: {fileID: 567208233}
   m_Layer: 0
   m_Name: MenuBG
   m_TagString: Untagged
@@ -1765,6 +1766,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &567208233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567208228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac30ad40dc105464d8c7e6620ab3cbd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_: {fileID: 567208232}
 --- !u!1 &623310790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,6 +3028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1009773408}
   - component: {fileID: 1009773409}
+  - component: {fileID: 1009773410}
   m_Layer: 5
   m_Name: MasterVolume
   m_TagString: Untagged
@@ -3095,6 +3110,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1009773410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009773407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 345d440e8b3cc2a4f8a4445cefb2162b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1009773409}
+  oldVolume: 1
 --- !u!1 &1060742420
 GameObject:
   m_ObjectHideFlags: 0

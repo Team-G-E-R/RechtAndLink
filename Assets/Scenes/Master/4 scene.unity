@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 467780051}
   - component: {fileID: 467780052}
   - component: {fileID: 467780053}
+  - component: {fileID: 467780054}
   m_Layer: 0
   m_Name: Cutscene
   m_TagString: Untagged
@@ -352,6 +353,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &467780054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467780049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac30ad40dc105464d8c7e6620ab3cbd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_: {fileID: 467780053}
 --- !u!114 &980612302 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7448411666724565157, guid: 28e7c2ffdc9e53747b2789e72dfb17f5, type: 3}

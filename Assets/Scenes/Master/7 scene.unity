@@ -780,12 +780,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 780263079463709489, guid: ca5d283206f6dd648a96571958a92f28, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335226065554676237, guid: ca5d283206f6dd648a96571958a92f28, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 664
       objectReference: {fileID: 0}
     - target: {fileID: 3750497173064197106, guid: ca5d283206f6dd648a96571958a92f28, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d0601cc08ea3cab458ef389b6e92c493, type: 2}
+    - target: {fileID: 5260253498279080088, guid: ca5d283206f6dd648a96571958a92f28, type: 3}
+      propertyPath: m_text
+      value: Dead Din added to inventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260253498279080088, guid: ca5d283206f6dd648a96571958a92f28, type: 3}
+      propertyPath: m_margin.z
+      value: 68.33656
+      objectReference: {fileID: 0}
     - target: {fileID: 8018195253170856161, guid: ca5d283206f6dd648a96571958a92f28, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2725,6 +2737,7 @@ GameObject:
   - component: {fileID: 745790797}
   - component: {fileID: 745790798}
   - component: {fileID: 745790799}
+  - component: {fileID: 745790800}
   m_Layer: 0
   m_Name: CutScene
   m_TagString: Untagged
@@ -3076,6 +3089,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActive: {fileID: 2596938653855438711}
+--- !u!114 &745790800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745790792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac30ad40dc105464d8c7e6620ab3cbd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_: {fileID: 745790797}
 --- !u!114 &753067417 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8983138093521876668, guid: c17b1226c813c3640ab84a235db0a581, type: 3}
