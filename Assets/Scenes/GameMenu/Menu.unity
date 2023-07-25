@@ -3106,7 +3106,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.99
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3123,7 +3123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1009773409}
-  oldVolume: 0.99
+  oldVolume: 1
 --- !u!1 &1060742420
 GameObject:
   m_ObjectHideFlags: 0
